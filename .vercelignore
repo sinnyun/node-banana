@@ -1,0 +1,41 @@
+# 1. 开发/编辑器文件
+.vscode/
+.idea/
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+.github
+
+# 2. 文档、脚本、测试（无用）
+docs/
+scripts/
+test/
+tests/
+__tests__/
+*.test.js
+*.spec.js
+README.md
+CHANGELOG.md
+LICENSE
+
+# 3. 缓存、日志、临时
+node_modules/       # Vercel 会自动装依赖，无需上传
+dist/
+build/
+.cache/
+.temp/
+*.log
+npm-debug.log
+yarn-error.log
+logs
+
+# 4. 环境文件（敏感）
+.env
+.env.local
+.env.*.local
+
+# 5. 其他无用目录
+examples/
+demo/
+backup/
