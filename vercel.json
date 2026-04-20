@@ -1,10 +1,7 @@
 {
   "functions": {
-    "**/*.js": {
-      "maxDuration": 300
-    },
-    "**/*.ts": {
-      "maxDuration": 300
+    "app/api/generate/route.ts": {
+      "maxDuration": 290
     }
   }
 }
